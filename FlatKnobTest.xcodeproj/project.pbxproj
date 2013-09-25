@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A8310717EA1D270014606C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A8310617EA1D270014606C /* Cocoa.framework */; };
+		87A8311117EA1D280014606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87A8310F17EA1D280014606C /* InfoPlist.strings */; };
+		87A8311317EA1D280014606C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8311217EA1D280014606C /* main.m */; };
+		87A8311717EA1D280014606C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 87A8311517EA1D280014606C /* Credits.rtf */; };
+		87A8311A17EA1D280014606C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8311917EA1D280014606C /* AppDelegate.m */; };
+		87A8311D17EA1D280014606C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A8311B17EA1D280014606C /* MainMenu.xib */; };
+		87A8312517EA1D360014606C /* FlatKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8312417EA1D360014606C /* FlatKnob.m */; };
+		87A8312717EA1EBF0014606C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A8312617EA1EBF0014606C /* QuartzCore.framework */; };
+		87A8312A17EA1F840014606C /* ControlPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8312917EA1F840014606C /* ControlPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87A8310317EA1D270014606C /* FlatKnobTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatKnobTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A8310617EA1D270014606C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		87A8310917EA1D270014606C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		87A8310A17EA1D270014606C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87A8310B17EA1D270014606C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87A8310E17EA1D280014606C /* FlatKnobTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlatKnobTest-Info.plist"; sourceTree = "<group>"; };
+		87A8311017EA1D280014606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87A8311217EA1D280014606C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87A8311417EA1D280014606C /* FlatKnobTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlatKnobTest-Prefix.pch"; sourceTree = "<group>"; };
+		87A8311617EA1D280014606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		87A8311817EA1D280014606C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87A8311917EA1D280014606C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87A8311C17EA1D280014606C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		87A8312317EA1D360014606C /* FlatKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatKnob.h; sourceTree = "<group>"; };
+		87A8312417EA1D360014606C /* FlatKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatKnob.m; sourceTree = "<group>"; };
+		87A8312617EA1EBF0014606C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87A8312817EA1F840014606C /* ControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPoint.h; sourceTree = "<group>"; };
+		87A8312917EA1F840014606C /* ControlPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A8310017EA1D270014606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A8312717EA1EBF0014606C /* QuartzCore.framework in Frameworks */,
+				87A8310717EA1D270014606C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A830FA17EA1D270014606C = {
+			isa = PBXGroup;
+			children = (
+				87A8310C17EA1D270014606C /* FlatKnobTest */,
+				87A8310517EA1D270014606C /* Frameworks */,
+				87A8310417EA1D270014606C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A8310417EA1D270014606C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A8310317EA1D270014606C /* FlatKnobTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A8310517EA1D270014606C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A8312617EA1EBF0014606C /* QuartzCore.framework */,
+				87A8310617EA1D270014606C /* Cocoa.framework */,
+				87A8310817EA1D270014606C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87A8310817EA1D270014606C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A8310917EA1D270014606C /* AppKit.framework */,
+				87A8310A17EA1D270014606C /* CoreData.framework */,
+				87A8310B17EA1D270014606C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		87A8310C17EA1D270014606C /* FlatKnobTest */ = {
+			isa = PBXGroup;
+			children = (
+				87A8311817EA1D280014606C /* AppDelegate.h */,
+				87A8311917EA1D280014606C /* AppDelegate.m */,
+				87A8311B17EA1D280014606C /* MainMenu.xib */,
+				87A8312317EA1D360014606C /* FlatKnob.h */,
+				87A8312417EA1D360014606C /* FlatKnob.m */,
+				87A8312817EA1F840014606C /* ControlPoint.h */,
+				87A8312917EA1F840014606C /* ControlPoint.m */,
+				87A8310D17EA1D280014606C /* Supporting Files */,
+			);
+			path = FlatKnobTest;
+			sourceTree = "<group>";
+		};
+		87A8310D17EA1D280014606C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A8310E17EA1D280014606C /* FlatKnobTest-Info.plist */,
+				87A8310F17EA1D280014606C /* InfoPlist.strings */,
+				87A8311217EA1D280014606C /* main.m */,
+				87A8311417EA1D280014606C /* FlatKnobTest-Prefix.pch */,
+				87A8311517EA1D280014606C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A8310217EA1D270014606C /* FlatKnobTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A8312017EA1D280014606C /* Build configuration list for PBXNativeTarget "FlatKnobTest" */;
+			buildPhases = (
+				87A830FF17EA1D270014606C /* Sources */,
+				87A8310017EA1D270014606C /* Frameworks */,
+				87A8310117EA1D270014606C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlatKnobTest;
+			productName = FlatKnobTest;
+			productReference = 87A8310317EA1D270014606C /* FlatKnobTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A830FB17EA1D270014606C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paolo Boschini";
+			};
+			buildConfigurationList = 87A830FE17EA1D270014606C /* Build configuration list for PBXProject "FlatKnobTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87A830FA17EA1D270014606C;
+			productRefGroup = 87A8310417EA1D270014606C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A8310217EA1D270014606C /* FlatKnobTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A8310117EA1D270014606C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A8311117EA1D280014606C /* InfoPlist.strings in Resources */,
+				87A8311717EA1D280014606C /* Credits.rtf in Resources */,
+				87A8311D17EA1D280014606C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A830FF17EA1D270014606C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A8311317EA1D280014606C /* main.m in Sources */,
+				87A8311A17EA1D280014606C /* AppDelegate.m in Sources */,
+				87A8312517EA1D360014606C /* FlatKnob.m in Sources */,
+				87A8312A17EA1F840014606C /* ControlPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87A8310F17EA1D280014606C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A8311017EA1D280014606C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87A8311517EA1D280014606C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A8311617EA1D280014606C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		87A8311B17EA1D280014606C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A8311C17EA1D280014606C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A8311E17EA1D280014606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		87A8311F17EA1D280014606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		87A8312117EA1D280014606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatKnobTest/FlatKnobTest-Prefix.pch";
+				INFOPLIST_FILE = "FlatKnobTest/FlatKnobTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87A8312217EA1D280014606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatKnobTest/FlatKnobTest-Prefix.pch";
+				INFOPLIST_FILE = "FlatKnobTest/FlatKnobTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A830FE17EA1D270014606C /* Build configuration list for PBXProject "FlatKnobTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A8311E17EA1D280014606C /* Debug */,
+				87A8311F17EA1D280014606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A8312017EA1D280014606C /* Build configuration list for PBXNativeTarget "FlatKnobTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A8312117EA1D280014606C /* Debug */,
+				87A8312217EA1D280014606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A830FB17EA1D270014606C /* Project object */;
+}
