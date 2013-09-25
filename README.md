@@ -3,7 +3,7 @@ FlatKnob
 
 Flat Customizable Circular Knob
 
-![alt tag](https://github.com/paoloboschini/FlatKnob/edit/master/screen.png)
+![alt tag](https://raw.github.com/paoloboschini/FlatKnob/master/screen.png)
 
 Features
 ========
