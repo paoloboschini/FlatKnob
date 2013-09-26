@@ -17,8 +17,17 @@ Basic Usage
 See example project for a demo.
 
 ```objectivec
-// create knob
+// create a knob
 FlatKnob *knob = [[FlatKnob alloc] initWithFrame:NSMakeRect(10, 30, 100, 100)];
+
+// or a custom knob
+FlatKnob *knob = [[FlatKnob alloc] initWithFrame:NSMakeRect(10, 30, 100, 100)
+                                      withInsets:10
+                        withControlPointDiameter:10
+                           withControlPointColor:[NSColor whiteColor]
+                                   withKnobColor:[NSColor blackColor]
+                             withBackgroundColor:[NSColor redColor]];
+
     
 // Set the knob's id
 knob.control = 0;
