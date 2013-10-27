@@ -8,8 +8,8 @@ Flat Customizable Circular Knob
 Features
 ========
 
-* Cusomizable appearance
-* Cusomizable value range
+* Customizable appearance
+* Customizable value range
 
 Basic Usage
 ========
